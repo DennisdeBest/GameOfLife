@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1427625408 source:d:\c_projects\gameoflifestruct\functions.c
+	<time.h>
+
+1427625453 source:d:\c_projects\gameoflifestruct\main.c
+	<stdio.h>
+	<stdlib.h>
+	"functions.h"
+
+1427625408 d:\c_projects\gameoflifestruct\functions.h
+
+1427564493 d:\c_projects\gameoflifestruct\functions.c
+	<time.h>
+
+1427973917 source:d:\dropbox\dropbox\projets\gameoflifestruct\gameoflifestruct\functions.c
+	<time.h>
+
+1427625453 source:d:\dropbox\dropbox\projets\gameoflifestruct\gameoflifestruct\main.c
+	<stdio.h>
+	<stdlib.h>
+	"functions.h"
+
+1427973917 d:\dropbox\dropbox\projets\gameoflifestruct\gameoflifestruct\functions.h
+
