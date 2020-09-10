@@ -4,7 +4,7 @@ A Conway's Game Of Life implementation
 
 To run it on linux use `./GameOfLife`, on windows run the `bin/GameOfLife.exe` file.
 
-```sh
+``` sh
 Welcome to a C implementation of Conway's game of life
 
 Select a world to load !
