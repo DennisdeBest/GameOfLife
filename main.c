@@ -5,7 +5,7 @@
 int main()
 {
     //initialize the variables
-    int i, j,counter = 0, counter2=0;
+    int i, j, counter = 0, counter2 = 0;
     char userContinue, userChoice;
     world newworld;
     //Ask user to choose the world
@@ -29,19 +29,26 @@ int main()
     {
         exampleWorld4(&newworld);
     }
-    else {randomWorld(&newworld);}
+    else
+    {
+        randomWorld(&newworld);
+    }
     //display the chosen world
     displayWorld(&newworld);
 
     //Start a loop to show the generations
-    while(1) {
-        counter2+=counter;
+    while (1)
+    {
+        counter2 += counter;
         printf("\nGeneration %d\n", counter2);
         printf("\n");
         printf("Continue (Y/N) ? ");
         scanf("%s", &userContinue);
         printf("\n");
-        if (userContinue == 'N' || userContinue =='n'){break;}
+        if (userContinue == 'N' || userContinue == 'n')
+        {
+            break;
+        }
         newGen(&newworld, &counter);
     }
     return 0;
