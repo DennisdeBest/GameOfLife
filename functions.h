@@ -1,7 +1,7 @@
 #ifndef FUNCTIONS_H
 #define FUCNTIONS_H
 
-#define TABLESIZE 10
+#define TABLESIZE 40
 
 //Create a structure for world
 typedef struct world world;

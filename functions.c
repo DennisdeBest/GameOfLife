@@ -1,13 +1,11 @@
-#define TABLESIZE 10
+#include "functions.h"
 #include <time.h>
+#include <stdio.h>
+#include <stdlib.h>
 
-typedef struct world world;
-struct world {
-    int table[TABLESIZE][TABLESIZE];
-};
 //Random function
 int randInt() {
-    int r = rand() %3;
+    int r = randInt() %3;
 //we create 2 cases for dead to avoid overcrowding
     switch (r) {
 case 0 :
